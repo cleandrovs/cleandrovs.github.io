@@ -1,0 +1,68 @@
+/*.principal {
+    background-color: red;
+    padding: 20px;
+}
+
+.second{
+    background-color: aqua;
+    padding: 20px;
+}
+.third {
+  background-color: pink;  
+  padding: 20px;
+}
+
+.four {
+    background-color: blue;
+    padding: 30px;
+}*/
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column-reverse;
+    float: right;
+}
+
+div div{
+    height: 100px;
+    width: 100px;
+}
+/*
+ejercicio 2
+.box1 {
+    position: relative;
+    right: 50%;
+    left: 50%;
+    background-color: coral;
+    align-self: flex-start; 
+}
+
+.box2 {
+    background-color: cornflowerblue;
+    align-self: center;
+    width: 100%;
+}
+
+.box3 {
+    position: relative;
+    right: -40%;
+    left: -40%;
+    background-color: darkseagreen;
+    align-self: flex-end;
+    
+}*/
+
+/*ejercicio 3*/
+
+.box1{
+    background-color: coral;
+}
+
+.box2{
+    background-color: cornflowerblue;
+}
+
+.box3{
+    background-color: darkseagreen;
+}

@@ -1,0 +1,14 @@
+.flex{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+.navbar {
+    background-color: aqua;
+    width: auto;
+}
+
+.content {
+    background-color: red;
+    height: 1000px;
+}

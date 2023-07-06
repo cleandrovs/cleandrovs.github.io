@@ -1,0 +1,30 @@
+/*li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.container {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    border: 1px solid grey;
+    background-color: blueviolet;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+
+}
+
+.image-gallery img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}

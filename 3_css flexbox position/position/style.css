@@ -1,0 +1,47 @@
+.caja1 {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: block;
+}
+
+.caja2 {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.caja3 {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid blue;
+    display: inline-block;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+}
+
+.bloque1 {
+    position: static;
+}
+
+.bloque2{
+    position: relative;
+    right: 20px;
+}
+
+.bloque3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: green;
+}
